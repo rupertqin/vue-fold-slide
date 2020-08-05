@@ -15,23 +15,24 @@ export default {
     FoldSlider
   },
   data() {
+    const { BASE_URL } = process.env;
     return {
       imgs: [
         {
-          big: '/img/1l.jpg',
-          small: '/img/1s.jpg',
+          big: BASE_URL + 'img/1l.jpg',
+          small: BASE_URL + 'img/1s.jpg',
         },
         {
-          big: '/img/2l.jpg',
-          small: '/img/2s.jpg',
+          big: BASE_URL + 'img/2l.jpg',
+          small: BASE_URL + 'img/2s.jpg',
         },
         {
-          big: '/img/3l.jpg',
-          small: '/img/3s.jpg',
+          big: BASE_URL + 'img/3l.jpg',
+          small: BASE_URL + 'img/3s.jpg',
         },
         {
-          big: '/img/4l.jpg',
-          small: '/img/4s.jpg',
+          big: BASE_URL + 'img/4l.jpg',
+          small: BASE_URL + 'img/4s.jpg',
         }
       ]
     }
