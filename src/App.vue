@@ -1,17 +1,40 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <FoldSlider :imgs="imgs" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import FoldSlider from './components/FoldSlider.vue'
+import FoldSlider from '../dist/main.common'
+import '../dist/main.css'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    FoldSlider
+  },
+  data() {
+    return {
+      imgs: [
+        {
+          big: '/img/1l.jpg',
+          small: '/img/1s.jpg',
+        },
+        {
+          big: '/img/2l.jpg',
+          small: '/img/2s.jpg',
+        },
+        {
+          big: '/img/3l.jpg',
+          small: '/img/3s.jpg',
+        },
+        {
+          big: '/img/4l.jpg',
+          small: '/img/4s.jpg',
+        }
+      ]
+    }
   }
 }
 </script>
