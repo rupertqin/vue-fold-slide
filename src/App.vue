@@ -5,9 +5,9 @@
 </template>
 
 <script>
-// import FoldSlider from './components/FoldSlider.vue'
-import FoldSlider from '../dist/main.common'
-import '../dist/main.css'
+import FoldSlider from './components/FoldSlider.vue'
+// import FoldSlider from '../dist/main.common'
+// import '../dist/main.css'
 
 export default {
   name: 'App',
