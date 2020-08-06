@@ -1,7 +1,6 @@
 {
   "name": "vue-fold-slide",
   "version": "0.1.0",
-  "private": true,
   "main": "dist/main.umd.js",
   "scripts": {
     "serve": "vue-cli-service serve",
