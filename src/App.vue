@@ -6,6 +6,10 @@
 
 <script>
 import FoldSlider from './components/FoldSlider.vue'
+
+
+// import FoldSlider from '../../node_modules/vue-fold-slide'
+// import '../../node_modules/vue-fold-slide/dist/main.css'
 // import FoldSlider from '../dist/main.common'
 // import '../dist/main.css'
 
