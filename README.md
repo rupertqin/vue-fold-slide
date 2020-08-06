@@ -5,7 +5,8 @@ Demo: http://rupertqin.github.io/vue-fold-slide/dist/
 
 ## Usage
 ```
-import FoldSlider from './components/FoldSlider.vue'
+import FoldSlider from 'vue-fold-slide'
+import 'vue-fold-slide/dist/main.css'
 
 <FoldSlider :imgs="imgs" />
 ```
