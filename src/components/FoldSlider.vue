@@ -64,7 +64,7 @@ export default  {
 }
 .sliders {
   display: inline-flex;
-  height: 477px;
+  height: 100%;
   overflow: hidden;
   box-shadow: 0 30px 20px -20px rgba(0, 0, 0, 0.3);
   &.left-to-right{

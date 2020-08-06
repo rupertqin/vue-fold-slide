@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <FoldSlider :imgs="imgs" />
+    <FoldSlider class="fold-slider" :imgs="imgs" />
   </div>
 </template>
 
@@ -48,5 +48,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  height: 34.5vw;
+  min-height: 477px;
 }
 </style>
