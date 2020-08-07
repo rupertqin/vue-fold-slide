@@ -1,8 +1,6 @@
-module.exports = {
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/vue-fold-slide/dist/'
-    : '/',
 
+const productionConfig = {
+  publicPath: '/vue-fold-slide/dist/',
   // css: { extract: false },
   configureWebpack: {
     externals: {
@@ -10,3 +8,16 @@ module.exports = {
     }
   }
 }
+
+const devConfig = {
+  publicPath: '/',
+  configureWebpack: {
+    externals: {
+      // debounce: 'debounce'
+    }
+  }
+}
+
+module.exports = process.env.NODE_ENV === 'production'
+  ? productionConfig
+  : devConfig
